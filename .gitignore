@@ -1,0 +1,35 @@
+# Ignore Python bytecode files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environment folders
+venv/
+env/
+*.env
+
+# Ignore Flask development files
+instance/
+.pytest_cache/
+cover/
+*.log
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore IDEs and text editors configurations
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Flask migration folders (if using Flask-Migrate)
+migrations/
